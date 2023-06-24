@@ -25,15 +25,15 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
 
-      - name: Build dlc.dat file
+      - name: Build iran-bans.dat file
         run: |
           cd code || exit 1
           go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
           cd ../ && rm -rf code
-          mv dlc.dat TEST-${{ github.run_number }}-dlc.dat
+          mv iran-bans.dat TEST-${{ github.run_number }}-iran-bans.dat
 
-      - name: Upload TEST-${{ github.run_number }}-dlc.dat
+      - name: Upload TEST-${{ github.run_number }}-iran-bans.dat
         uses: actions/upload-artifact@v3
         with:
-          name: TEST-${{ github.run_number }}-dlc.dat
-          path: TEST-${{ github.run_number }}-dlc.dat
+          name: TEST-${{ github.run_number }}-iran-bans.dat
+          path: TEST-${{ github.run_number }}-iran-bans.dat
