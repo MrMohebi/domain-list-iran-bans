@@ -62,5 +62,5 @@ jobs:
         run: |
           gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./iran-bans.dat ./iran-bans.dat.*
         env:
-          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+          GH_TOKEN: ${{ secrets.TOKEN_GITHUB }}
 
