@@ -4,7 +4,8 @@ This project manages a list of domains, to be used as geosites for routing purpo
 
 ## Download links
 
-- **iran-bans.dat**：
+- **iran-bans.dat**：[https://github.com/MrMohebi/domain-list-iran-bans/releases/latest/download/iran-bans.dat](https://github.com/MrMohebi/domain-list-iran-bans/releases/latest/download/iran-bans.dat)
+- **iran-bans.dat.sha256sum**：[https://github.com/MrMohebi/domain-list-iran-bans/releases/latest/download/iran-bans.dat.sha256sum](https://github.com/MrMohebi/domain-list-iran-bans/releases/latest/download/iran-bans.dat.sha256sum)
 
 ## Usage example
 
