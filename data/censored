@@ -23,3 +23,7 @@ domain:video.l.google.com
 
 # instagram
 domain:instagram.com
+domain:cdninstagram.com
+
+# facebook
+domain:facebook.com
