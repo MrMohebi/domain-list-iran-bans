@@ -1,6 +1,25 @@
 domain:twitter.com
 domain:twimg.com
+
+# telegram
 domain:telegram.org
 domain:elegra.ph
 domain:tx.me
 domain:t.me
+
+# youtube
+domain:youtube.com
+domain:googlevideo.com
+domain:yt3.ggpht.com
+domain:yt.be
+domain:ytimg.com
+domain:ytimg.l.google.com
+domain:ytkids.app.goo.gl
+domain:yt-video-upload.l.google.com
+domain:googlevideo.com
+domain:gvt1.com
+domain:video.google.com
+domain:video.l.google.com
+
+# instagram
+domain:instagram.com
